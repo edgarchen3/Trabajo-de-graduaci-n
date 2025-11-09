@@ -1,4 +1,4 @@
-# Trabajo de graduación 2025
+# Carpeta Imágenes
 
 Autor: Edgar Chen
 
