@@ -4,6 +4,8 @@ Autores: Edgar Chen
 
 Asesor: Dr. Luis Alberto Rivera Estrada
 
-En este repositorio se incluyen los códigos utilizados para simular la respuesta de los siete circuitos implementados en archivos desarrollados en Matlab, Simulink y LTspice. Para generar las imágenes correspondientes, únicamente es necesario ejecutar los códigos y, de ser requerido, modificar los parámetros de simulación.
+Cada carpeta está identificada con el número correspondiente al circuito y contiene los tres archivos asociados a su simulación: el archivo .m de Matlab, el archivo .slx de Simulink y el archivo .asc de LTspice.
 
-Como complemento, se incluyen también los registros experimentales obtenidos de las mediciones físicas realizadas. En ellos se presenta una colección de imágenes que muestran las distintas respuestas obtenidas al variar un parámetro en cada uno de los circuitos, junto con los datos asociados a dichas mediciones.
+Para ejecutar las simulaciones, únicamente es necesario abrir y correr los programas correspondientes. Se requiere contar con una versión de Matlab 2022a o posterior, así como LTspice v24.1.10 o más reciente.
+
+En el caso de las simulaciones realizadas en Simulink y LTspice, es necesario modificar los valores de los componentes para obtener distintas respuestas del sistema. Por otro lado, en los códigos destinados a la generación de gráficas, únicamente deben ajustarse los valores de las variables ubicadas en la sección superior del código (debidamente indicada), sin realizar cambios en el resto del programa.
